@@ -16,7 +16,7 @@ function App() {
 
       <StaffList data={staffData} />
 
-      <div className="clear-list">
+      <div>
         {staffData.length === 0 ? (
           <button className="refreshBtn" onClick={() => setStaffData(data)}>
             Refresh!

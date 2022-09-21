@@ -29,7 +29,7 @@ function StaffList({ data }) {
                 <img src={image} alt="" className="img" />
               </div>
               <div className="staff-details">
-                <h2>{name}</h2>
+                <h2 className="staff-name">{name}</h2>
                 <p>
                   <span className="span">Staff ID:</span> {staffId}
                 </p>

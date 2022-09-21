@@ -41,7 +41,7 @@
 
 .clearBtn {
   color: red;
-  padding: 10px 40px;
+  padding: 6px 40px;
   font-weight: 600;
   font-size: 17px;
   border-top: none;
@@ -62,7 +62,7 @@
 
 .refreshBtn {
   color: purple;
-  padding: 10px 40px;
+  padding: 6px 40px;
   font-weight: 600;
   font-size: 17px;
   border: none;
