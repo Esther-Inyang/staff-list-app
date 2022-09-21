@@ -2,6 +2,21 @@ import React from "react";
 import "./stafflist.css";
 
 function StaffList({ data }) {
+  const noStaff = {
+    color: "rgb(119, 4, 4)",
+    width: "100%",
+    padding: "20px",
+    textAlign: "center",
+  };
+
+  if (data.length === 0) {
+    return (
+      <div style={noStaff}>
+        <h1>No Staff on Duty Today..</h1>
+      </div>
+    );
+  }
+
   return (
     <>
       <section className="container">

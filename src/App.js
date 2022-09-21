@@ -16,9 +16,17 @@ function App() {
 
       <StaffList data={staffData} />
 
-      <button className="clear-list" onClick={() => setStaffData([])}>
-        Clear List
-      </button>
+      <div className="clear-list">
+        {staffData.length === 0 ? (
+          <button className="refreshBtn" onClick={() => setStaffData(data)}>
+            Refresh!
+          </button>
+        ) : (
+          <button className="clearBtn" onClick={() => setStaffData([])}>
+            Clear List
+          </button>
+        )}
+      </div>
     </div>
   );
 }
