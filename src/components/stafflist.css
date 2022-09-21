@@ -7,7 +7,7 @@
 .container {
   width: 90%;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: rgb(1, 24, 45);
 }
 
@@ -43,6 +43,7 @@
     display: grid;
     place-items: center;
     grid-row-gap: 25px;
+    border-radius: 20px;
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   }
 

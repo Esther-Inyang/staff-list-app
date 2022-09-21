@@ -28,6 +28,7 @@
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border: 1px solid rgb(1, 24, 45);
+  border-bottom: none;
 }
 
 .staff-count {
